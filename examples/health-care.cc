@@ -126,7 +126,7 @@ void Run(int nbNanoNodes, int nbNanoRouters, int nbNanoGateways, double txRangeN
 	//random variable generation
 	srand(time(NULL));
 	SeedManager::SetSeed(rand());
-	UniformVariable random;
+	UniformRandomVariable random;
 
 	//helper definition
 	NanoHelper nano;
